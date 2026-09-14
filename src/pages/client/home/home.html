@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Food Store - Catálogo</title>
+  </head>
+
+  <body class="home-page">
+    <header class="main-header">
+      <h1>🍕 Food Store</h1>
+
+      <nav>
+        <a href="./home.html"> Catálogo </a>
+
+        <a href="../cart/cart.html">
+          Carrito
+          <span id="cart-count">0</span>
+        </a>
+
+        <a href="../client.html"> Mi cuenta </a>
+      </nav>
+    </header>
+
+    <main class="catalog-main">
+      <section class="catalog-header">
+        <h2>Catálogo de productos</h2>
+
+        <div class="search-container">
+          <label for="search-input"> Buscar producto </label>
+
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Ej: pizza, hamburguesa..."
+          />
+        </div>
+      </section>
+
+      <div class="catalog-layout">
+        <aside class="categories">
+          <h3>Categorías</h3>
+
+          <div id="categories-container">
+            <!-- Las categorías se cargan desde TypeScript -->
+          </div>
+        </aside>
+
+        <section class="products-section">
+          <div id="search-message" class="search-message"></div>
+
+          <div id="products-container" class="products-container">
+            <!-- Los productos se cargan desde TypeScript -->
+          </div>
+        </section>
+      </div>
+    </main>
+   <footer class="main-footer">
+
+    <div class="main-footer-content">
+
+        <div class="footer-info">
+            <h3>🛒 Food Store</h3>
+
+            <p>
+                Aplicación frontend para la gestión
+                de productos y carrito de compras.
+            </p>
+        </div>
+
+        <div class="footer-details">
+            <h4>Proyecto académico</h4>
+
+            <p>
+                Programación III
+            </p>
+
+            <p>
+                Tecnicatura Universitaria en Programación
+            </p>
+
+            <p>
+                UTN
+            </p>
+        </div>
+
+        <div class="footer-tech">
+            <h4>Tecnologías</h4>
+
+            <p>
+                HTML · CSS · TypeScript · Vite
+            </p>
+
+            <p>
+                Persistencia con localStorage
+            </p>
+        </div>
+
+        <p class="footer-copy">
+            © 2026 Food Store · Evaluación 1 · Programación III
+        </p>
+
+    </div>
+
+</footer>
+    <script type="module" src="./home.ts"></script>
+  </body>
+</html>

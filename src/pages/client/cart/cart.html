@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Food Store - Carrito</title>
+  </head>
+
+  <body class="cart-page">
+    <header class="main-header">
+      <h1>🛒 Food Store</h1>
+
+      <nav>
+        <a href="../home/home.html"> Catálogo </a>
+
+        <a href="./cart.html">
+          Carrito
+          <span id="cart-count">0</span>
+        </a>
+
+        <a href="../client.html"> Mi cuenta </a>
+      </nav>
+    </header>
+
+    <main class="cart-main">
+      <h2>Mi carrito</h2>
+
+      <div id="cart-message" class="cart-message"></div>
+
+      <section id="cart-items" class="cart-items">
+        <!-- Los productos del carrito se cargan desde TypeScript -->
+      </section>
+
+      <section id="cart-summary" class="cart-summary">
+        <div class="cart-summary-content">
+          <p id="cart-total"></p>
+
+          <div class="cart-summary-actions">
+            <a href="../home/home.html" class="continue-shopping-button">
+              Seguir comprando
+            </a>
+
+            <button
+              id="checkout-button"
+              class="checkout-button"
+              type="button"
+              disabled
+              aria-disabled="true"
+              title="Funcionalidad no disponible"
+            >
+              Finalizar compra
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+<footer class="main-footer">
+
+    <div class="main-footer-content">
+
+        <div class="footer-info">
+            <h3>🛒 Food Store</h3>
+
+            <p>
+                Aplicación frontend para la gestión
+                de productos y carrito de compras.
+            </p>
+        </div>
+
+        <div class="footer-details">
+            <h4>Proyecto académico</h4>
+
+            <p>
+                Programación III
+            </p>
+
+            <p>
+                Tecnicatura Universitaria en Programación
+            </p>
+
+            <p>
+                UTN
+            </p>
+        </div>
+
+        <div class="footer-tech">
+            <h4>Tecnologías</h4>
+
+            <p>
+                HTML · CSS · TypeScript · Vite
+            </p>
+
+            <p>
+                Persistencia con localStorage
+            </p>
+        </div>
+
+        <p class="footer-copy">
+            © 2026 Food Store · Evaluación 1 · Programación III
+        </p>
+
+    </div>
+
+</footer>
+    <script type="module" src="./cart.ts"></script>
+  </body>
+</html>

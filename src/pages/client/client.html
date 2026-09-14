@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Food Store - Cliente</title>
+  </head>
+
+  <body class="client-page">
+
+  <main class="client-card">
+
+    <h1>🍕 Food Store</h1>
+
+    <h2>Zona Cliente</h2>
+
+    <p>
+      Bienvenido,
+      <strong>
+        <span id="usuario-email"></span>
+      </strong>
+    </p>
+
+    <p>
+      Sesión iniciada como cliente.
+    </p>
+
+    <div class="client-actions">
+
+      <a
+        href="./home/home.html"
+        class="client-button"
+      >
+        Ir al catálogo
+      </a>
+
+      <button
+        id="btn-logout"
+        class="client-button logout-button"
+      >
+        Cerrar sesión
+      </button>
+
+    </div>
+
+  </main>
+
+  <script
+    type="module"
+    src="./client.ts"
+  ></script>
+
+</body>
+</html>
