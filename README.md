@@ -44,7 +44,7 @@ La aplicación fue desarrollada utilizando Vite como entorno de desarrollo y pnp
 - localStorage
 - pnpm
 
-```markdown
+
 ## Video de presentación
 
 Video correspondiente a la presentación de la Evaluación 1 de Programación III.
