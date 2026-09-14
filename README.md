@@ -50,7 +50,6 @@ Video correspondiente a la presentación de la Evaluación 1 de Programación II
 
 Enlace al video:
 
-```text
 https://youtu.be/Q6OflMvvyD4
 ```
 
